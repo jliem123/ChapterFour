@@ -21,7 +21,7 @@ public class Factory
     }
     
     public String toString() {
-        String output = "This factory has:k \n";
+        String output = "This factory has: \n";
         for (Car c : inventory) {
             output += c + "\n" ;
         }

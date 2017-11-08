@@ -16,11 +16,6 @@ public class Student
     private int idNumber;
     private Student bestFriend;
     
-    public Student()
-    {
-          
-    }
-    
     public Student(int num, String nm) {
         this.idNumber = num;
         this.name = nm;
